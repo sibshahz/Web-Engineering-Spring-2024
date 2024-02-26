@@ -1,0 +1,26 @@
+body{
+  background-color: #43c12f;
+}
+body h2{
+  color: pink;
+}
+div{
+  color: chocolate;
+  background-color: rgb(63, 63, 79);
+}
+div>h2{
+  color: yellow;
+}
+div h3{
+  color: purple;
+}
+h1{
+  color: white;
+}
+#heading-three{
+  color: chartreuse;
+  font-style: italic;
+}
+.red-text{
+  color: red;
+}

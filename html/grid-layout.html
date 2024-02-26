@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML 5 Boilerplate</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+  <style>
+    body{
+
+    }
+    div#container{
+      display: grid;
+      grid-template-columns: repeat(12,1fr);
+      min-width: 100vw;
+      min-height: 100vh;
+      background-color: purple;
+      gap:20px;
+    }
+    .elements{
+      border: 2px solid black;
+      background-color: cadetblue;
+    }
+    div#header{
+      grid-column-start: 1;
+      grid-column-end: 13;
+    }
+    div#main-content{
+      grid-column: span 12;
+      display: grid;
+      grid-template-columns: repeat(12,1fr);
+      gap: 20px;
+    }
+    div#content{
+      grid-column: span 8;
+    }
+    div#sidebar{
+      grid-column: span 4;
+    }
+    #footer{
+      grid-column: span 12;
+    }
+  </style>
+  </head>
+  <body>
+    <div id="container">
+      <div id="header" class="elements">
+
+      </div>
+      <div id="main-content"  class="elements">
+        <div id="content"  class="elements">
+
+        </div>
+        <div id="sidebar"  class="elements">
+
+        </div>
+      </div>
+      <footer id="footer"  class="elements">
+
+      </footer>
+    </div>
+  </body>
+</html>
