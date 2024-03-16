@@ -2,6 +2,8 @@ const express = require('express');
 
 const app = express();
 
+app.use(express.json());
+
 function getRandomInt(max) {
   return Math.floor(Math.random() * max);
 }
