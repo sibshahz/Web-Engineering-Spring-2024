@@ -4,7 +4,7 @@ const app = express();
 
 app.use(express.json());
 
-let studentData=['student one', 'student two', 'student three'];
+let studentData=["first student"];
 
 // get data of all students
 app.get('/', (req,res) => {
